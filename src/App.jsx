@@ -1,7 +1,7 @@
 import './App.css'
 import Footer from './component/pages/Footer.jsx'
 import Navbar from './component/pages/Navbar.jsx'
-import Home from './component/pages/home.jsx'
+import Home from './component/pages/Home.jsx'
 import Galeria from './component/pages/Galeria.jsx'
 
 function App() {

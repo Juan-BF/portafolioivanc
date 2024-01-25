@@ -1,5 +1,5 @@
 import style from '../styles/Galeria.module.css'
-import { bodasImages, graduacionesImages,  libresImages } from '../assets/imagenes/imagenes'
+import { bodasImages, graduacionesImages,  libresImages } from '../../assets/imagenes/imagenes'
 
 const Galeria = () => {
 

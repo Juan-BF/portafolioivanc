@@ -1,7 +1,7 @@
 import style from '../styles/Galeria.module.css'
 import { bodasImages, graduacionesImages,  libresImages } from '../assets/imagenes/imagenes'
 
-const Galerias = () => {
+const Galeria = () => {
 
 
 
@@ -50,4 +50,4 @@ const Galerias = () => {
   )
 }
 
-export default Galerias
+export default Galeria

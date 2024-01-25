@@ -1,8 +1,8 @@
 import './App.css'
 import Footer from './component/pages/Footer'
 import Navbar from './component/pages/Navbar'
-import Galerias from './component/pages/galerias'
 import Home from './component/pages/home'
+import Galeria from './component/pages/Galeria.jsx'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Home />
         <div className='BoxApp'>
-        <Galerias/>
+        <Galeria/>
         <Footer/>
         </div>
       </div>

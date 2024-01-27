@@ -5,40 +5,81 @@
     background-size: cover;
     background-position: center center;
 }
-
-.Inf {
-  padding-top: 10px;
+@media screen and (min-width: 768px) {
+    .ImgPortada {
+        width: 100%;
+        height: 60vh;
+        background-image: url(/src/assets/imagenes/hero/home.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
     
 }
 
+
+.Inf {
+    padding-top: 10px;
+
+}
+
 .infPersonal {
-    >h2{
+    >h2 {
         font-size: 1.7rem;
-        >span{
-            color:#b2aa29;
+
+        >span {
+            color: #b2aa29;
         }
-    };
+    }
+
+    ;
     font-size: 0.7rem;
     text-align: center;
     text-transform: uppercase;
-    >span{
+
+    >span {
         color: #c7c5ac;
     }
-   
-}
-
-.infcontenido{
-   margin: 20px 30px;
-   font-size: 0.9rem;
-   font-weight: 300;
-   >span{
-    color:#b2aa29;
-   }
 
 }
-.infcontenido p{
-    >span{
-     color:#b2aa29;
+
+.infcontenido {
+    margin: 20px 30px;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+    >span {
+        color: #b2aa29;
     }
- 
- }
+
+}
+
+.infcontenido p {
+    >span {
+        color: #b2aa29;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .infcontenido p {
+
+        width: 39%;
+        font-size: 1.8rem;
+    }
+
+    .infcontenido {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .infPersonal {
+        >h2 {
+            font-size: 3.3rem;
+        }    
+        >span{
+            font-size: 1.5rem;
+        }
+    }
+    
+}

@@ -5,22 +5,28 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    backdrop-filter: blur(17px);
+    position: fixed;
+    background-color: #1422364a;
 }
 
 .logo img {
     width: 50px;
     height: 50px;
 }
-.name{
+
+.name {
     text-align: center;
 }
-.name h1{
+
+.name h1 {
     font-size: 1.7rem;
     font-weight: 300;
     color: #fff;
     line-height: 23px;
 }
-.name span{
+
+.name span {
     color: #b2aa29;
 }
 
@@ -38,11 +44,11 @@
 }
 
 .socialMedia a:nth-child(1) {
-    background-image: url(../assets/imagenes/nav/instagramico.png);
+    background-image: url(../../assets/imagenes/nav/instagramico.png);
 
 }
 
 .socialMedia a:nth-child(2) {
-    background-image: url(../assets/imagenes/nav/whasapico.png);
+    background-image: url(../../assets/imagenes/nav/whasapico.png);
 
 }

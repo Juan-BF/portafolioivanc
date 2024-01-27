@@ -1,16 +1,19 @@
-.BoxFoooter{
+.BoxFoooter {
     background-color: #212121;
     margin-top: 100px;
     height: 7rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px 20px 3px 0;
 }
-.inf h4{
-    >span{
+
+.inf h4 {
+    >span {
         color: #b2aa29;
     }
 }
-.inf p{
+
+.inf p {
     font-size: 0.8rem;
 }

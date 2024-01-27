@@ -1,8 +1,11 @@
+
 .Bodas,
 .Graduaciones,
 .Libre {
     margin-top: 55px;
     text-align: center;
+    /* height: 100vh; */
+    /* overflow: hidden; */
 
     >h4 {
         text-wrap: balance;
@@ -12,6 +15,7 @@
 
 .catalogoB,
 .catalogoG {
+    height: 100%;
     padding: 8px;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -112,3 +116,16 @@
     background-image: url(../assets/imagenes/nav/instagramico.png);
 
 }
+
+@media screen and (min-width: 768px) {
+    .BoxGaleria{
+        width: 40%;
+        margin: 0 auto;
+        h4{
+            font-size: 1.3rem;
+            color: #b2aa29d6;
+        }
+    }
+    
+}
+

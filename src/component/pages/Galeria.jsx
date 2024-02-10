@@ -1,5 +1,5 @@
 import style from '../styles/Galeria.module.css'
-import { bodasImages, graduacionesImages,  libresImages } from '../../assets/imagenes/imagenes'
+import { bodasImages, graduacionesImages, libresImages } from '../../assets/imagenes/imagenes'
 
 const Galeria = () => {
 
@@ -13,7 +13,7 @@ const Galeria = () => {
           <div className={style.catalogoB}>
             {bodasImages.map((imageName, index) => (
               <a key={index} href="#">
-                <img key={index} src={imageName} alt={`imagenen ${index + 1}`} />
+                <img key={index} src={imageName} alt={`imagenen ${index + 1}`} loading="lazy" />
               </a>
             ))}
           </div>
@@ -23,7 +23,7 @@ const Galeria = () => {
           <div className={style.catalogoG}>
             {graduacionesImages.map((imageNameg, index) => (
               <a key={index} href="#">
-                <img key={index} src={imageNameg} alt={`imagenen ${index + 1}`} />
+                <img key={index} src={imageNameg} alt={`imagenen ${index + 1}`} loading="lazy" />
               </a>
             ))}
           </div>
@@ -33,7 +33,7 @@ const Galeria = () => {
           <div className={style.catalogoL}>
             {libresImages.map((imageName, index) => (
               <a key={index} href="#">
-                <img key={index} src={imageName} alt={`imagenen ${index + 1}`} />
+                <img key={index} src={imageName} alt={`imagenen ${index + 1}`} loading="lazy" />
               </a>
             ))}
           </div>
